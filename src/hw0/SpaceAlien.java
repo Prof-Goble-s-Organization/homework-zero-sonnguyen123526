@@ -22,7 +22,7 @@ public class SpaceAlien {
     }
 
     public void doGreeting() {
-        System.out.println("Greetings form planet" + homePlanet + ", "
+        System.out.println("Greetings form planet " + homePlanet + ", "
                 + distanceFromEarth + " light years away");
     }
 
