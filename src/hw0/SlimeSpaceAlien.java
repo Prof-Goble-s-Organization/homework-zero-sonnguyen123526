@@ -12,13 +12,13 @@ public class SlimeSpaceAlien extends SpaceAlien implements ZapsWithSlime{
 
     @Override
     public String doSlimeZap(int numHumans) {
-        // TODO Auto-generated method stub
+        //TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'doSlimeZap'");
     }
 
     @Override
     public String slimeWholeEarth() {
-        // TODO Auto-generated method stub
+        //TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'slimeWholeEarth'");
     }
 
