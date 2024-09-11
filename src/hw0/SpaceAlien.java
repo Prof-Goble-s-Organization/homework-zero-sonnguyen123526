@@ -26,6 +26,14 @@ public class SpaceAlien {
                 + distanceFromEarth + " light years away");
     }
 
+    public String gethomePlanet(){
+        return homePlanet;
+    }
+
+    public double getdistanceFromEarth(){
+        return distanceFromEarth;
+    }
+
     public static void main(String[] args) {
         SpaceAlien descolada = new SpaceAlien("Lusitania", 42);
         descolada.doGreeting();
