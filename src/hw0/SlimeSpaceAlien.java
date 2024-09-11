@@ -13,11 +13,14 @@ public class SlimeSpaceAlien extends SpaceAlien implements ZapsWithSlime{
     @Override
     public String doSlimeZap(int numHumans) {
         //TODO Auto-generated method stub
-        if (numHumans == 0){
-            return "hu hu hu";
+        if (numHumans == 0 ){
+            return "huhuhu";
+        }
+        else if (numHumans == 1){
+            return "blech";
         }
         else{
-            return "yay yay yay";
+            return "BLECHHHH";
         }
 
     }
